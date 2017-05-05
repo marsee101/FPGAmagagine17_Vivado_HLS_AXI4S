@@ -7,3 +7,7 @@ FPGAマガジンNo.17の「高位合成ツールVivado HLS 特設記事」<BR>
 AXI4ストリームによるラプラシアン・フィルタ処理回路の実装<BR>
 の記事のソースコードです。<BR>
 http://www.kumikomi.net/fpga/contents/0017.php<BR>
+<BR>
+2017/05/04 : takseiさんのご指摘によりintX_tを使った宣言に変更。takseiさんありがとうございました。<BR>
+変数の型のサイズの違いによってLinuxの64ビット版では動作しなかったためです。<BR>
+http://marsee101.blog19.fc2.com/blog-entry-3354.html#comment2808<BR>
